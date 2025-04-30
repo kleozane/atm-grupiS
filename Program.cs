@@ -8,6 +8,7 @@ int invalidAttempts = 0;
 
 while (true) // stukture perseritese e faqes kryesore
 {
+    Console.WriteLine("Wilkommen Sie!");
     Console.WriteLine("1.Sign up    2.Login");
     var input = Console.ReadLine();
 

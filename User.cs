@@ -41,7 +41,7 @@
     public void Transfer(User user, List<User> userList)
     {
         Console.Write("Transfer Account ID: ");
-        var uId = Console.ReadLine();
+        var uId = Console.ReadLine(); //Koment kot
 
         var userRecieve = userList.Where(u => u.Id == uId).FirstOrDefault();
 
