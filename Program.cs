@@ -167,3 +167,4 @@ while (true) // stukture perseritese e faqes kryesore
 Console.WriteLine("Login attempts reached, please try again later!");
 
 
+// ja shtuam per efekt merge
