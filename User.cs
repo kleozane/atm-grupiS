@@ -43,6 +43,8 @@
         Console.Write("Transfer Account ID: ");
         var uId = Console.ReadLine(); //Koment kot
 
+        //Koment kot x2
+
         var userRecieve = userList.Where(u => u.Id == uId).FirstOrDefault();
 
         if (userRecieve != null)
